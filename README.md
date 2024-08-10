@@ -12,6 +12,8 @@
 8. Update the main.py
 9. Update the dvc.yaml
 
+### NOTE: TO CHECK OUR EPOCHS WE HAVE RUN WE USE TENSORBOARD TO VIEWS THE GRAPHS OF LOSS AND ACCURACY BY THE COMMAND ---->
+#### $ tensorboard --logdir artifacts/prepare_callbacks/tensorboard_log_dir/
 
 # How to run?
 ### STEPS:
