@@ -93,7 +93,7 @@ open up you local host and port
 	
 ## 3. Create ECR repo to store/save docker image
     - Save the URI: 851725279976.dkr.ecr.us-east-1.amazonaws.com/chicken
-	
+
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
@@ -140,16 +140,16 @@ open up you local host and port
 
 ## Save pass:
 
-s3cEZKH5yytiVnJ3h+eI3qhhzf9q1vNwEi6+q+WGdd+ACRCZ7JD6
+VLMIX78qgKNrJvhMptTC/DGtDiwnk1Z+iJGyX+wtM++ACRCwRWZs
 
 
 ## Run from terminal:
 
-docker build -t chickenapp.azurecr.io/chicken:latest .
+docker build -t chickenappp.azurecr.io/chicken:latest .
 
-docker login chickenapp.azurecr.io
+docker login chickenappp.azurecr.io
 
-docker push chickenapp.azurecr.io/chicken:latest
+docker push chickenappp.azurecr.io/chicken:latest
 
 
 ## Deployment Steps:
